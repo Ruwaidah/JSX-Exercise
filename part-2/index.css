@@ -1,0 +1,47 @@
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+p {
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h4 {
+  margin: 0;
+}
+
+.tweet-card {
+  width: 40%;
+  border: 1px solid gray;
+  background-color: rgb(215, 250, 252);
+  margin: 6px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  box-shadow: gray 10px 10px 10px;
+}
+
+.name-date-tweet {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.name-date-tweet p {
+  margin: 0;
+}
+
+.name-date-tweet p:first-child {
+  margin-left: 4px;
+}
+
+.msg-tweet {
+  border-top: 1px rgb(23, 18, 47) solid;
+  padding: 20px 0;
+}
